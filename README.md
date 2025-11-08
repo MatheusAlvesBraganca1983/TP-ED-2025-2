@@ -4,6 +4,8 @@ Este projeto foi desenvolvido como parte da disciplina Estrutura de Dados, e tem
 Todas as informações de times e partidas são carregadas para a memória principal e manipuladas através de TADs (Tipos Abstratos de Dados), com foco na organização, modularização e clareza de código.
 
 
+
+
 ## ⚙️ 2. Funcionalidades Implementadas
 
 O sistema oferece três funcionalidades principais:
@@ -16,6 +18,8 @@ Lista os times disponíveis, solicita o ID de um time e mostra todas as partidas
 
 ### ⚙️ 2.3 Imprimir tabela de classificação:
 Exibe a tabela completa de classificação do campeonato, com colunas alinhadas mostrando vitórias, empates, derrotas, gols marcados, sofridos, saldo e pontuação.
+
+
 
 
 ## 🧩 3. Estrutura do Repositório
@@ -33,6 +37,8 @@ README.md              # Documentação do projeto
 
 
 Cada módulo possui responsabilidade própria, garantindo clareza e separação entre lógica de dados e lógica de controle.
+
+
 
 
 ## 🧱 4. Estrutura dos Arquivos CSV
@@ -59,6 +65,8 @@ ID,Time1,Time2,GolsTime1,GolsTime2
 ...
 
 
+
+
 ## 🧮 5. TADs Utilizados
 
 ### 🧮 5.1 Time	
@@ -74,6 +82,8 @@ Armazena informações de uma partida entre dois times.
 Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidade. Funções: carregar_partidas, atualizar_estatisticas, consultar_partidas.
 
 
+
+
 ## 🧠 6. Decisões de Implementação
 
 ### 🧠 6.1 Modularização rigorosa: cada TAD possui .h e .c, conforme boas práticas de organização.
@@ -87,6 +97,8 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 ### 🧠 6.5 Interface simplificada: o usuário escolhe o time pelo ID, evitando problemas com acentuação e espaços em nomes.
 
 ### 🧠 6.6 Tratamento de erros: verificações de entrada inválida, IDs fora de faixa e mensagens claras quando não há dados disponíveis.
+
+
 
 
 ## 🧾 7. Instruções de Execução
@@ -105,6 +117,8 @@ Utilitário make (GNU Make)
 
   Compile e execute:
     make
+
+
 
 ## 🏁 8. Considerações Finais
 
