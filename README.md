@@ -118,8 +118,8 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 
     cd /caminho/para/TP-ED-2025-2 (Exemplo)
 
-  2. Compile e execute:
-  make
+  2. Compile e execute:  
+    make
 
 
 
