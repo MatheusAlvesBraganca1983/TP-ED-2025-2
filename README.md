@@ -125,5 +125,4 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 
 ## 🏁 8. Considerações Finais
 
-O projeto cumpre todos os requisitos da Parte I do Trabalho Prático de Estrutura de Dados, implementando corretamente as três funcionalidades obrigatórias, com código modularizado, comentado e executável em múltiplos sistemas operacionais.
-A documentação está detalhada e estruturada para facilitar tanto a execução quanto a compreensão das decisões de projeto.
+O projeto cumpre os requisitos da Parte I do Trabalho Prático de Estrutura de Dados, implementando corretamente as três funcionalidades obrigatórias, com código modularizado, comentado e executável.
