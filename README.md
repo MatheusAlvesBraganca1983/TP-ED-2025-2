@@ -30,8 +30,9 @@ TrabalhoED/
 ├── bd_times.csv           # Arquivo base de times
 ├── bd_partidas.csv        # Arquivo base de partidas
 │
-├── Makefile               # Script de compilação
+├── Makefile               # Script de compilação automatizada
 └── README.md              # Documentação do projeto
+
 
 
 Cada módulo possui responsabilidade própria, garantindo clareza e separação entre lógica de dados e lógica de controle.
