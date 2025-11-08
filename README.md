@@ -1,24 +1,24 @@
-📘 1. Descrição Geral
+# 📘 1. Descrição Geral
 
 Este projeto foi desenvolvido como parte da disciplina Estrutura de Dados, e tem como objetivo implementar um sistema de gerenciamento de partidas e classificação de um campeonato de futebol utilizando a linguagem C. Nesta primeira parte, o sistema realiza operações de leitura, consulta e exibição de dados baseadas em arquivos .csv.
 Todas as informações de times e partidas são carregadas para a memória principal e manipuladas através de TADs (Tipos Abstratos de Dados), com foco na organização, modularização e clareza de código.
 
 
-⚙️ 2. Funcionalidades Implementadas
+## ⚙️ 2. Funcionalidades Implementadas
 
 O sistema oferece três funcionalidades principais:
 
-⚙️ 2.1 Consultar time:
+### ⚙️ 2.1 Consultar time:
 Exibe todos os times cadastrados, permite ao usuário selecionar um ID e visualizar o desempenho completo do time escolhido.
 
-⚙️ 2.2 Consultar partidas:
+### ⚙️ 2.2 Consultar partidas:
 Lista os times disponíveis, solicita o ID de um time e mostra todas as partidas que ele disputou (ou informa caso não haja partidas registradas)
 
-⚙️ 2.3 Imprimir tabela de classificação:
+### ⚙️ 2.3 Imprimir tabela de classificação:
 Exibe a tabela completa de classificação do campeonato, com colunas alinhadas mostrando vitórias, empates, derrotas, gols marcados, sofridos, saldo e pontuação.
 
 
-🧩 3. Estrutura do Repositório
+## 🧩 3. Estrutura do Repositório
 TrabalhoED/
 main.c                 # Função principal e menu do sistema
 time.c / time.h        # TAD Time: representa e imprime estatísticas de cada time
@@ -35,9 +35,9 @@ README.md              # Documentação do projeto
 Cada módulo possui responsabilidade própria, garantindo clareza e separação entre lógica de dados e lógica de controle.
 
 
-🧱 4. Estrutura dos Arquivos CSV
+## 🧱 4. Estrutura dos Arquivos CSV
 
-🧱 4.1 bd_times.csv
+### 🧱 4.1 bd_times.csv
 
 Contém os times participantes do campeonato.
 
@@ -48,7 +48,7 @@ ID,Nome
 3,GOrilas
 ...
 
-🧱 4.2 bd_partidas.csv
+### 🧱 4.2 bd_partidas.csv
 
 Contém as partidas realizadas, associando os times por ID.
 
