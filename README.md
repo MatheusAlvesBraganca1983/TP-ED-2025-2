@@ -48,6 +48,7 @@ Cada módulo possui responsabilidade própria, garantindo clareza e separação 
 Contém os times participantes do campeonato.
 
 ID,Nome
+
 0,JAVAlis
 1,ESCorpioes
 2,SemCTRL
