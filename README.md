@@ -91,7 +91,7 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 
 - Modularização rigorosa: cada TAD possui .h e .c, conforme boas práticas de organização.
 
-- Vetores estáticos: usados para armazenar até 200 times e partidas, simplificando a manipulação de dados sem alocação dinâmica.
+- Vetores estáticos: usados para armazenar times e partidas, simplificando a manipulação de dados sem alocação dinâmica.
 
 - Separação de responsabilidades: main.c atua apenas no fluxo de controle e interface; leitura e manipulação de dados ocorrem nos TADs.
 
