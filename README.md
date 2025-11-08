@@ -20,17 +20,28 @@ Exibe a tabela completa de classificação do campeonato, com colunas alinhadas 
 
 🧩 3. Estrutura do Repositório
 TrabalhoED/
+
+│
 │
 ├── main.c                 # Função principal e menu do sistema
+│
 ├── time.c / time.h        # TAD Time: representa e imprime estatísticas de cada time
+│
 ├── partida.c / partida.h  # TAD Partida: representa os dados de uma partida
+│
 ├── bd_times.c / bd_times.h         # TAD BD_Times: banco de dados de times
+│
 ├── bd_partidas.c / bd_partidas.h   # TAD BD_Partidas: banco de dados de partidas
 │
+│
 ├── bd_times.csv           # Arquivo base de times
+│
 ├── bd_partidas.csv        # Arquivo base de partidas
 │
+│
+│
 ├── Makefile               # Script de compilação automatizada
+│
 └── README.md              # Documentação do projeto
 
 
