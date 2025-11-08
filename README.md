@@ -56,7 +56,6 @@ ID,Nome
 ### 🧱 4.2 bd_partidas.csv
 
 Contém as partidas realizadas, associando os times por ID.
-
 ID,Time1,Time2,GolsTime1,GolsTime2
 0,0,1,2,0
 1,0,2,3,1
