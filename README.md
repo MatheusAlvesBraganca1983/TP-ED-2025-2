@@ -89,17 +89,17 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 
 ## 🧠 6. Decisões de Implementação
 
-### 🧠 6.1 Modularização rigorosa: cada TAD possui .h e .c, conforme boas práticas de organização.
+- Modularização rigorosa: cada TAD possui .h e .c, conforme boas práticas de organização.
 
-### 🧠 6.2 Vetores estáticos: usados para armazenar até 200 times e partidas, simplificando a manipulação de dados sem alocação dinâmica.
+- Vetores estáticos: usados para armazenar até 200 times e partidas, simplificando a manipulação de dados sem alocação dinâmica.
 
-### 🧠 6.3 Separação de responsabilidades: main.c atua apenas no fluxo de controle e interface; leitura e manipulação de dados ocorrem nos TADs.
+- Separação de responsabilidades: main.c atua apenas no fluxo de controle e interface; leitura e manipulação de dados ocorrem nos TADs.
 
-### 🧠 6.4 Formatação do output: tabelas impressas com espaçamento fixo (printf("%-15s %4d ...")) garantem alinhamento em terminais.
+- Formatação do output: tabelas impressas com espaçamento fixo (printf("%-15s %4d ...")) garantem alinhamento em terminais.
 
-### 🧠 6.5 Interface simplificada: o usuário escolhe o time pelo ID, evitando problemas com acentuação e espaços em nomes.
-
-### 🧠 6.6 Tratamento de erros: verificações de entrada inválida, IDs fora de faixa e mensagens claras quando não há dados disponíveis.
+- Interface simplificada: o usuário escolhe o time pelo ID, evitando problemas com acentuação e espaços em nomes.
+- 
+- Tratamento de erros: verificações de entrada inválida, IDs fora de faixa e mensagens claras quando não há dados disponíveis.
 
 
 
