@@ -98,7 +98,7 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 - Formatação do output: tabelas impressas com espaçamento fixo (printf("%-15s %4d ...")) garantem alinhamento em terminais.
 
 - Interface simplificada: o usuário escolhe o time pelo ID, evitando problemas com acentuação e espaços em nomes.
-- 
+  
 - Tratamento de erros: verificações de entrada inválida, IDs fora de faixa e mensagens claras quando não há dados disponíveis.
 
 
