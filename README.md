@@ -26,18 +26,18 @@ Exibe a tabela completa de classificação do campeonato, com colunas alinhadas 
 ```
 TP-ED-2025-2/
 │
-├── main.c                     # Função principal e menu do sistema
+├── main.c                         # Função principal e menu do sistema
 │
-├── time.c / time.h            # TAD Time
-├── bd_times.c / bd_times.h    # TAD BDTimes (gerencia todos os times)
+├── time.c / time.h                # TAD Time
+├── bd_times.c / bd_times.h        # TAD BDTimes (gerencia todos os times)
 │
-├── partida.c / partida.h      # TAD Partida
-├── bd_partidas.c / bd_partidas.h # TAD BDPartidas (gerencia todas as partidas)
+├── partida.c / partida.h          # TAD Partida
+├── bd_partidas.c / bd_partidas.h  # TAD BDPartidas (gerencia todas as partidas)
 │
-├── times.csv                  # Banco de dados de times
-├── partidas.csv               # Banco de dados de partidas
+├── times.csv                      # Banco de dados de times
+├── partidas.csv                   # Banco de dados de partidas
 │
-└── README.md                  # Documentação do projeto
+└── README.md                      # Documentação do projeto
 
 ```
 
@@ -52,19 +52,19 @@ Cada módulo possui responsabilidade própria, garantindo clareza e separação 
 ## 🧱 4. Estrutura dos Arquivos CSV
 
 ### 🧱 4.1 bd_times.csv
-
+```
 Contém os times participantes do campeonato.
 ID,Nome
 0,JAVAlis
 ...
-
+```
 ### 🧱 4.2 bd_partidas.csv
-
+```
 Contém as partidas realizadas, associando os times por ID.
 ID,Time1,Time2,GolsTime1,GolsTime2
 0,0,1,2,0
 ...
-
+```
 
 
 
