@@ -1,4 +1,4 @@
-# 📘 1. Descrição Geral
+## 📘 1. Descrição Geral
 
 Este projeto foi desenvolvido como parte da disciplina Estrutura de Dados, e tem como objetivo implementar um sistema de gerenciamento de partidas e classificação de um campeonato de futebol utilizando a linguagem C. Nesta primeira parte, o sistema realiza operações de leitura, consulta e exibição de dados baseadas em arquivos .csv.
 Todas as informações de times e partidas são carregadas para a memória principal e manipuladas através de TADs (Tipos Abstratos de Dados), com foco na organização, modularização e clareza de código.
@@ -59,45 +59,45 @@ ID,Time1,Time2,GolsTime1,GolsTime2
 ...
 
 
-🧮 5. TADs Utilizados
+## 🧮 5. TADs Utilizados
 
-🧮 5.1 Time	
+### 🧮 5.1 Time	
 Representa um time individual e suas estatísticas.
 
-🧮 5.2 BD_Times	
+### 🧮 5.2 BD_Times	
 Estrutura que armazena todos os times carregados do CSV.
 
-🧮 5.3 Partida	
+### 🧮 5.3 Partida	
 Armazena informações de uma partida entre dois times.
 
-🧮 5.4 BD_Partidas	
+### 🧮 5.4 BD_Partidas	
 Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidade. Funções: carregar_partidas, atualizar_estatisticas, consultar_partidas.
 
 
-🧠 6. Decisões de Implementação
+## 🧠 6. Decisões de Implementação
 
-🧠 6.1 Modularização rigorosa: cada TAD possui .h e .c, conforme boas práticas de organização.
+### 🧠 6.1 Modularização rigorosa: cada TAD possui .h e .c, conforme boas práticas de organização.
 
-🧠 6.2 Vetores estáticos: usados para armazenar até 200 times e partidas, simplificando a manipulação de dados sem alocação dinâmica.
+### 🧠 6.2 Vetores estáticos: usados para armazenar até 200 times e partidas, simplificando a manipulação de dados sem alocação dinâmica.
 
-🧠 6.3 Separação de responsabilidades: main.c atua apenas no fluxo de controle e interface; leitura e manipulação de dados ocorrem nos TADs.
+### 🧠 6.3 Separação de responsabilidades: main.c atua apenas no fluxo de controle e interface; leitura e manipulação de dados ocorrem nos TADs.
 
-🧠 6.4 Formatação do output: tabelas impressas com espaçamento fixo (printf("%-15s %4d ...")) garantem alinhamento em terminais.
+### 🧠 6.4 Formatação do output: tabelas impressas com espaçamento fixo (printf("%-15s %4d ...")) garantem alinhamento em terminais.
 
-🧠 6.5 Interface simplificada: o usuário escolhe o time pelo ID, evitando problemas com acentuação e espaços em nomes.
+### 🧠 6.5 Interface simplificada: o usuário escolhe o time pelo ID, evitando problemas com acentuação e espaços em nomes.
 
-🧠 6.6 Tratamento de erros: verificações de entrada inválida, IDs fora de faixa e mensagens claras quando não há dados disponíveis.
+### 🧠 6.6 Tratamento de erros: verificações de entrada inválida, IDs fora de faixa e mensagens claras quando não há dados disponíveis.
 
 
-🧾 7. Instruções de Execução
+## 🧾 7. Instruções de Execução
 
-🔹 7.1 Requisitos
+### 🔹 7.1 Requisitos
 
 Compilador GCC (versão 11+)
 
 Utilitário make (GNU Make)
 
-🔹 7.2 Passo a passo
+### 🔹 7.2 Passo a passo
 
   Acesse a pasta do projeto:
 
@@ -106,7 +106,7 @@ Utilitário make (GNU Make)
   Compile e execute:
     make
 
-🏁 8. Considerações Finais
+## 🏁 8. Considerações Finais
 
 O projeto cumpre todos os requisitos da Parte I do Trabalho Prático de Estrutura de Dados, implementando corretamente as três funcionalidades obrigatórias, com código modularizado, comentado e executável em múltiplos sistemas operacionais.
 A documentação está detalhada e estruturada para facilitar tanto a execução quanto a compreensão das decisões de projeto.
