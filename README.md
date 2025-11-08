@@ -114,7 +114,7 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 
 ### 🔹 7.2 Passo a passo
 
-  1. Acesse a pasta do projeto:
+  1. Acesse a pasta do projeto no terminal:
 
     cd /caminho/para/TP-ED-2025-2 (Exemplo)
 
