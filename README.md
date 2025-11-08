@@ -48,9 +48,6 @@ Cada módulo possui responsabilidade própria, garantindo clareza e separação 
 Contém os times participantes do campeonato.
 ID,Nome
 0,JAVAlis
-1,ESCorpioes
-2,SemCTRL
-3,GOrilas
 ...
 
 ### 🧱 4.2 bd_partidas.csv
@@ -58,8 +55,6 @@ ID,Nome
 Contém as partidas realizadas, associando os times por ID.
 ID,Time1,Time2,GolsTime1,GolsTime2
 0,0,1,2,0
-1,0,2,3,1
-2,2,3,2,2
 ...
 
 
