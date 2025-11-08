@@ -72,16 +72,16 @@ ID,Time1,Time2,GolsTime1,GolsTime2
 
 ## 🧮 5. TADs Utilizados
 
-### 🧮 5.1 Time	
+-  5.1 Time	
 Representa um time individual e suas estatísticas.
 
-### 🧮 5.2 BD_Times	
+-  5.2 BD_Times	
 Estrutura que armazena todos os times carregados do CSV.
 
-### 🧮 5.3 Partida	
+-  5.3 Partida	
 Armazena informações de uma partida entre dois times.
 
-### 🧮 5.4 BD_Partidas	
+-  5.4 BD_Partidas	
 Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidade. Funções: carregar_partidas, atualizar_estatisticas, consultar_partidas.
 
 
