@@ -116,7 +116,7 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 
   1. Acesse a pasta do projeto:
 
-  cd /caminho/para/TP-ED-2025-2
+    cd /caminho/para/TP-ED-2025-2
 
   2. Compile e execute:
   make
