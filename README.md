@@ -108,18 +108,18 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 
 ### 🔹 7.1 Requisitos
 
-Compilador GCC (versão 11+)
+  1. Compilador GCC (versão 11+)
 
-Utilitário make (GNU Make)
+  2. Utilitário make (GNU Make)
 
 ### 🔹 7.2 Passo a passo
 
-  Acesse a pasta do projeto:
+  1. Acesse a pasta do projeto:
 
   cd /caminho/para/TP-ED-2025-2
 
-  Compile e execute:
-    make
+  2. Compile e execute:
+  make
 
 
 
