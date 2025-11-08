@@ -24,16 +24,21 @@ Exibe a tabela completa de classificação do campeonato, com colunas alinhadas 
 
 ## 🧩 3. Estrutura do Repositório
 ```
-TrabalhoED/
-main.c                 # Função principal e menu do sistema
-time.c / time.h        # TAD Time
-partida.c / partida.h  # TAD Partida
-bd_times.c / bd_times.h        # TAD BDTimes
-bd_partidas.c / bd_partidas.h  # TAD BDPartidas
-bd_times.csv           # Arquivo base de times
-bd_partidas.csv        # Arquivo base de partidas
-Makefile               # Script de compilação
-README.md              # Documentação do projeto
+TP-ED-2025-2/
+│
+├── main.c                     # Função principal e menu do sistema
+│
+├── time.c / time.h            # TAD Time
+├── bd_times.c / bd_times.h    # TAD BDTimes (gerencia todos os times)
+│
+├── partida.c / partida.h      # TAD Partida
+├── bd_partidas.c / bd_partidas.h # TAD BDPartidas (gerencia todas as partidas)
+│
+├── times.csv                  # Banco de dados de times
+├── partidas.csv               # Banco de dados de partidas
+│
+└── README.md                  # Documentação do projeto
+
 ```
 
 
