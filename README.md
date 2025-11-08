@@ -46,17 +46,11 @@ Cada módulo possui responsabilidade própria, garantindo clareza e separação 
 ### 🧱 4.1 bd_times.csv
 
 Contém os times participantes do campeonato.
-
 ID,Nome
-
 0,JAVAlis
-
 1,ESCorpioes
-
 2,SemCTRL
-
 3,GOrilas
-
 ...
 
 ### 🧱 4.2 bd_partidas.csv
