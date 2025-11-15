@@ -1,4 +1,4 @@
-## 📘 1. Descrição Geral
+### 1. Descrição Geral
 
 Este projeto foi desenvolvido como parte da disciplina Estrutura de Dados, e tem como objetivo implementar um sistema de gerenciamento de partidas e classificação de um campeonato de futebol utilizando a linguagem C. Nesta primeira parte, o sistema realiza operações de leitura, consulta e exibição de dados baseadas em arquivos .csv.
 Todas as informações de times e partidas são carregadas para a memória principal e manipuladas através de TADs (Tipos Abstratos de Dados), com foco na organização, modularização e clareza de código.
@@ -6,23 +6,23 @@ Todas as informações de times e partidas são carregadas para a memória princ
 
 
 
-## ⚙️ 2. Funcionalidades Implementadas
+## 2. Funcionalidades Implementadas
 
 O sistema oferece três funcionalidades principais:
 
-### ⚙️ 2.1 Consultar time:
+# 2.1 Consultar time:
 Exibe todos os times cadastrados, permite ao usuário selecionar um ID e visualizar o desempenho completo do time escolhido.
 
-### ⚙️ 2.2 Consultar partidas:
+# 2.2 Consultar partidas:
 Lista os times disponíveis, solicita o ID de um time e mostra todas as partidas que ele disputou (ou informa caso não haja partidas registradas)
 
-### ⚙️ 2.3 Imprimir tabela de classificação:
+# 2.3 Imprimir tabela de classificação:
 Exibe a tabela completa de classificação do campeonato, com colunas alinhadas mostrando vitórias, empates, derrotas, gols marcados, sofridos, saldo e pontuação.
 
 
 
 
-## 🧩 3. Estrutura do Repositório
+## 3. Estrutura do Repositório
 ```
 TP-ED-2025-2/
 │
@@ -49,9 +49,9 @@ Cada módulo possui responsabilidade própria, garantindo clareza e separação 
 
 
 
-## 🧱 4. Estrutura dos Arquivos CSV
+## 4. Estrutura dos Arquivos CSV
 
-### 🧱 4.1 bd_times.csv
+# 4.1 bd_times.csv
 ```
 Contém os times participantes do campeonato.
 ID,Nome
@@ -59,7 +59,7 @@ ID,Nome
 1,ESCorpioes
 ...
 ```
-### 🧱 4.2 bd_partidas.csv
+# 4.2 bd_partidas.csv
 ```
 Contém as partidas realizadas, associando os times por ID.
 ID,Time1,Time2,GolsTime1,GolsTime2
@@ -70,7 +70,7 @@ ID,Time1,Time2,GolsTime1,GolsTime2
 
 
 
-## 🧮 5. TADs Utilizados
+## 5. TADs Utilizados
 
 -  Time:  
 Representa um time individual e suas estatísticas.
@@ -87,7 +87,7 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 
 
 
-## 🧠 6. Decisões de Implementação
+## 6. Decisões de Implementação
 
 - Modularização rigorosa: cada TAD possui .h e .c, conforme boas práticas de organização.
 
@@ -104,15 +104,15 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 
 
 
-## 🧾 7. Instruções de Execução
+## 7. Instruções de Execução
 
-### 🔹 7.1 Requisitos
+# 7.1 Requisitos
 
   1. Compilador GCC (versão 11+)
 
   2. Utilitário make (GNU Make)
 
-### 🔹 7.2 Passo a passo
+# 7.2 Passo a passo
 
   1. Acesse a pasta do projeto no terminal:
 
@@ -123,6 +123,6 @@ Conjunto de partidas registradas no campeonato.	Partida partidas[200], quantidad
 
 
 
-## 🏁 8. Considerações Finais
+## 8. Considerações Finais
 
 O projeto cumpre os requisitos da Parte I do Trabalho Prático de Estrutura de Dados, implementando corretamente as três funcionalidades obrigatórias, com código modularizado, comentado e executável.
